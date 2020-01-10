@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.mypayroll.app.Login</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ctc</servlet-name>
+        <servlet-class>com.mypayroll.app.ctc</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>ctc</servlet-name>
+        <url-pattern>/ctc/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BasicSalary</servlet-name>
+        <servlet-class>com.mypayroll.app.BasicSalary</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>BasicSalary</servlet-name>
+        <url-pattern>/BasicSalary/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Bonus</servlet-name>
+        <servlet-class>com.mypayroll.app.Bonus</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>Bonus</servlet-name>
+        <url-pattern>/Bonus/*</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Contribustion</servlet-name>
+        <servlet-class>com.mypayroll.app.Contribustion</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>Contribustion</servlet-name>
+        <url-pattern>/Contribustion/*</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Controller</servlet-name>
+        <servlet-class>com.mypayroll.app.Controller</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+
+        <servlet-name>Controller</servlet-name>
+        <url-pattern>/Controller/*</url-pattern>
+    </servlet-mapping>
+
+</web-app>
